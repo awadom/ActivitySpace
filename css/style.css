@@ -2375,16 +2375,3 @@ ol {
 	}
 }
 
-
-.activity-description {
-	float: right;
-	width: 50%;
-  }
-
-  
-  /* Clear floats after the columns */
-  .activity-row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
