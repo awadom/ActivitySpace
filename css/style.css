@@ -889,6 +889,11 @@ ol {
   Lookbok Section
 -----------------------*/
 
+.chatbot {
+	border: 1px solid #727272;
+	border-radius: 10px;
+}
+
 .lookbok-left {
 	padding-top: 105px;
 }
