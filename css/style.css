@@ -825,6 +825,19 @@ ol {
 	width: 15px;
 }
 
+.is-animated {
+	animation: .6s zoom-in;
+}
+
+@keyframes zoom-in {
+	0% {
+		transform: scale(.1);
+	} 
+	100% {
+		transform: none;
+	}
+}
+
 .single-product-item {
 	margin-bottom: 30px;
 }
