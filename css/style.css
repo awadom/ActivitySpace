@@ -809,19 +809,19 @@ ol {
 	margin-right: 0;
 }
 
-.leisure {
+.leisure-icon {
 	width: 20px;
 }
 
-.partners, .team, .kids {
+.partners-icon, .team-icon, .kids-icon {
 	width: 19px;
 }
 
-.active {
+.active-icon, .edu-icon {
 	width: 18px;
 }
 
-.solo {
+.solo-icon {
 	width: 15px;
 }
 
@@ -841,6 +841,14 @@ ol {
 	object-fit: cover;
 }
 
+.single-product-item figure img:hover {
+	width: 264px;
+	height: 363px;
+	transition: transform .2s;
+	transform: scale(1.5);
+	object-fit: cover;
+}
+
 .single-product-item figure .p-status {
 	position: absolute;
 	left: 20px;
@@ -853,7 +861,7 @@ ol {
 }
 
 .single-product-item figure .p-status.sale {
-	background: #FE439F;
+	background: #037913c5;
 }
 
 .single-product-item figure .p-status.popular {
