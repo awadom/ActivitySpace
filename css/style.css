@@ -809,6 +809,22 @@ ol {
 	margin-right: 0;
 }
 
+.leisure-icon {
+	width: 20px;
+}
+
+.partners-icon, .team-icon, .kids-icon {
+	width: 19px;
+}
+
+.active-icon, .edu-icon {
+	width: 18px;
+}
+
+.solo-icon {
+	width: 15px;
+}
+
 .single-product-item {
 	margin-bottom: 30px;
 }
@@ -820,7 +836,17 @@ ol {
 }
 
 .single-product-item figure img {
-	min-width: 100%;
+	width: 264px;
+	height: 363px;
+	object-fit: cover;
+}
+
+.single-product-item figure img:hover {
+	width: 264px;
+	height: 363px;
+	transition: transform .2s;
+	transform: scale(1.2);
+	object-fit: cover;
 }
 
 .single-product-item figure .p-status {
@@ -835,11 +861,12 @@ ol {
 }
 
 .single-product-item figure .p-status.sale {
-	background: #FE439F;
+	background: #d3af11;
 }
 
 .single-product-item figure .p-status.popular {
-	background: #D0D7DB;
+	background: #757575;
+	color: #fff;
 }
 
 .single-product-item .product-text {
