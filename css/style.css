@@ -708,6 +708,22 @@ ol {
 	top: 40px;
 }
 
+.transbox {
+	position: absolute;
+	height: 125px;
+	width: 600px;
+	top: 40px;
+	left: 275px;
+	margin: 0px;
+	background-color: #fff952;
+	opacity: 1;
+  }
+
+  .hero-slider h1, .hero-slider h2 {
+	  font-family: 'Playfair Display', serif;
+	  color: black;
+  }
+
 .features-box .single-box-item.large-box .box-text .trend-year {
 	color: #181818;
 	opacity: 1;
@@ -2058,6 +2074,8 @@ ol {
 	width: 100%;
 }
 
+
+
 /* ---------------------------------- Responsive Media Styles ---------------------------------*/
 
 @media only screen and (min-width: 1500px) and (max-width: 1920px) {
@@ -2375,16 +2393,3 @@ ol {
 	}
 }
 
-
-.activity-description {
-	float: right;
-	width: 50%;
-  }
-
-  
-  /* Clear floats after the columns */
-  .activity-row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
