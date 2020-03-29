@@ -2365,13 +2365,10 @@ ol {
 
 
 .activity-description {
-	float: left;
+	float: right;
 	width: 50%;
   }
-.activity-requirement {
-	float: left;
-	width: 50%;
-  }
+
   
   /* Clear floats after the columns */
   .activity-row:after {
