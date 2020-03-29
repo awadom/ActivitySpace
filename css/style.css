@@ -647,11 +647,11 @@ ol {
 .features-box .single-box-item.first-box .box-text {
 	position: absolute;
 	right: 60px;
-	top: 106px;
+	top: 120px;
 }
 
 .features-box .single-box-item.first-box .box-text .trend-alert {
-	color: #1e1e1e;
+	color: #fff;
 	display: block;
 	font-size: 22px;
 	font-family: "FuturaBT-Book";
@@ -663,7 +663,17 @@ ol {
 
 .features-box .single-box-item.first-box .box-text .primary-btn {
 	border-color: #D0D7DB;
-	color: #1e1e1e;
+	color: #fff;
+}
+
+.features-box .single-box-item.first-box .box-text .trend-year {
+	color: #fff;
+	opacity: 1;
+}
+
+.features-box .single-box-item.first-box .box-text h2 {
+	color: #cfcfcf;
+	opacity: 1;
 }
 
 .features-box .single-box-item.second-box {
@@ -673,7 +683,7 @@ ol {
 .features-box .single-box-item.second-box .box-text {
 	position: absolute;
 	left: 56px;
-	top: 150px;
+	top: 120px;
 }
 
 .features-box .single-box-item.second-box .box-text .trend-year {
@@ -681,8 +691,9 @@ ol {
 	opacity: 1;
 }
 
+
 .features-box .single-box-item.second-box .box-text .trend-alert {
-	color: #5b5b5b;
+	color: #6c6c6c;
 	display: inline-block;
 	font-size: 16px;
 	font-family: "FuturaBT-Book";
@@ -693,23 +704,24 @@ ol {
 
 .features-box .single-box-item.large-box .box-text {
 	position: absolute;
-	left: 125px;
-	top: 60px;
+	left: 75px;
+	top: 40px;
 }
 
 .features-box .single-box-item.large-box .box-text .trend-year {
-	color: #838383;
+	color: #181818;
 	opacity: 1;
 }
 
 .features-box .single-box-item.large-box .box-text h2 {
+	color: #dfdede;
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 56px;
 }
 
 .features-box .single-box-item.large-box .box-text .trend-alert {
-	color: #5b5b5b;
+	color: #fff;
 	display: inline-block;
 	font-size: 22px;
 	font-family: "FuturaBT-Book";
@@ -723,7 +735,7 @@ ol {
 }
 
 .features-box .single-box-item .box-text .trend-year {
-	color: #1e1e1e;
+	color: #fff;
 	font-size: 22px;
 	font-weight: 700;
 	opacity: 0.32;
