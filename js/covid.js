@@ -1,5 +1,5 @@
 const key = "e6ef2cde327f46e3820d0344025b79fc"
-const url = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${key}`
+const url = `https://newsapi.org/v2/top-headlines?country=us&pagesize=4&page=1&q=coronavirus&apiKey=${key}`
 
 const recievedNews = (newsdata) => {
     const articlesDiv = document.querySelector(".lookbok-section .container-fluid .row .offset-lg-1 .lookbok-left .headlines")
@@ -12,12 +12,11 @@ const recievedNews = (newsdata) => {
             <div class="single-product-item">
                 <figure>
 		            <a href="${article.url} target="_blank">
-                        <img src="${article.urlToImage}"/>
+                        <img src="${article.urlToImage}" style="height:200px;cover:object-fit;/>
                     </a>
                 </figure>
                 <div class="product-text">
                     <p>${article.title}</p>
-                    <h6><img src="img/icons/fast.png" style="width:18px;height:auto;"> Active <img src="img/icons/team.png" style="width:19px;height:auto;" alt=""> 3+</h6>
                 </div>
             </div>
 			`
