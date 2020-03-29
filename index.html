@@ -63,7 +63,7 @@
                 <nav class="main-menu mobile-menu">
                     <ul>
                         <li><a class="active" href="./index.html">Home</a></li>
-                        <li><a href="./product-page.html">About</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="./categories.html">Shop</a>
                             <ul class="sub-menu">
                                 <li><a href="product-page.html">Product Page</a></li>
@@ -178,7 +178,7 @@
     </section>
 
     <!-- Lookbok Section Begin -->
-    <section class="lookbok-section">
+    <section class="lookbok-section pt-5" id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 offset-lg-1">
@@ -241,12 +241,14 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="single-box-item large-box">
-                            <img src="img/f-box-3.jpg" alt="">
-                            <div class="box-text">
-                                <span class="trend-year">Virtual</span>
-                                <h2>Fun Online</h2>
-                                <div class="trend-alert">Virtual Activities</div>
-                            </div>
+                            <a href="#" target="_blank">
+                                <img src="img/f-box-3.jpg" alt="">
+                                <div class="box-text">
+                                    <span class="trend-year">Virtual</span>
+                                    <h2>Fun Online</h2>
+                                    <div class="trend-alert">Virtual Activities</div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -273,12 +275,59 @@
                             <li data-filter=".partners">Partners</li>
                             <li data-filter=".group">3+ People</li>
                             <li data-filter=".kids">For Kids</li>
-                            <li data-filter=".solo">For Couples</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row" id="product-list">
+                <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                    <div class="single-product-item">
+                        <figure>
+                            <a href="#"><img src="img/products/img-1.jpg" alt=""></a>
+                            <div class="p-status">virtual</div>
+                        </figure>
+                        <div class="product-text">
+                            <p>Activity Name</p>
+                            <h6><img src="img/icons/sofa.png" style="width:20px;height:auto;" alt=""> Leisure <img src="img/icons/user.png" style="width:15px;height:auto;" alt=""> Solo</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mix all dresses bags">
+                    <div class="single-product-item">
+                        <figure>
+                            <a href="#"><img src="img/products/img-2.jpg" alt=""></a>
+                            <div class="p-status sale">sale</div>
+                        </figure>
+                        <div class="product-text">
+                            <p>Activity Name</p>
+                            <h6><img src="img/icons/fast.png" style="width:18px;height:auto;"> Active <img src="img/icons/employees.png" style="width:19px;height:auto;" alt=""> Partner</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mix all shoes accesories">
+                    <div class="single-product-item">
+                        <figure>
+                            <a href="#"><img src="img/products/img-3.jpg" alt=""></a>
+                            <div class="p-status">new</div>
+                        </figure>
+                        <div class="product-text">
+                            <p>Activity Name</p>
+                            <h6><img src="img/icons/fast.png" style="width:18px;height:auto;"> Active <img src="img/icons/team.png" style="width:19px;height:auto;" alt=""> 3+</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 mix all shoes accesories">
+                    <div class="single-product-item">
+                        <figure>
+                            <a href="#"><img src="img/products/img-4.jpg" alt=""></a>
+                            <div class="p-status popular">popular</div>
+                        </figure>
+                        <div class="product-text">
+                            <p>Activity Name</p>
+                            <h6><img src="img/icons/fast.png" style="width:18px;height:auto;"> Active <img src="img/icons/smiling-baby.png" style="width:19px;height:auto;" alt=""> Kids</h6>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-3 col-sm-6 mix all dresses bags">
                     <div class="single-product-item">
                         <figure>
@@ -298,8 +347,8 @@
                             <div class="p-status sale">sale</div>
                         </figure>
                         <div class="product-text">
-                            <h6>Yellow Maxi Dress</h6>
-                            <p>$25.90</p>
+                            <p>Activity Name</p>
+                            <h6>Type <img src="img/icons/man.png" alt=""> # People</h6>
                         </div>
                     </div>
                 </div>
@@ -310,8 +359,8 @@
                             <div class="p-status">new</div>
                         </figure>
                         <div class="product-text">
-                            <h6>One piece bodysuit</h6>
-                            <p>$19.90</p>
+                            <p>Activity Name</p>
+                            <h6>Type <img src="img/icons/man.png" alt=""> # People</h6>
                         </div>
                     </div>
                 </div>
@@ -322,12 +371,11 @@
                             <div class="p-status popular">popular</div>
                         </figure>
                         <div class="product-text">
-                            <h6>Blue Dress with details</h6>
-                            <p>$35.50</p>
+                            <p>Activity Name</p>
+                            <h6>Type <img src="img/icons/man.png" alt=""> # People</h6>
                         </div>
                     </div>
                 </div>
-                
             </div>
         </div>
     </section>
@@ -370,77 +418,32 @@
             </div>
             <div class="footer-widget">
                 <div class="row">
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-8 col-sm-6">
                         <div class="single-footer-widget">
-                            <h4>About us</h4>
-                            <ul>
-                                <li>About Us</li>
-                                <li>Community</li>
-                                <li>Jobs</li>
-                                <li>Shipping</li>
-                                <li>Contact Us</li>
-                            </ul>
+                            <h4>About Us</h4>
+                            <p>A shorter version of the about above</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-sm-6">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="single-footer-widget">
-                            <h4>Customer Care</h4>
-                            <ul>
-                                <li>Search</li>
-                                <li>Privacy Policy</li>
-                                <li>2019 Lookbook</li>
-                                <li>Shipping & Delivery</li>
-                                <li>Gallery</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li>Free Shipping</li>
-                                <li>Free Returnes</li>
-                                <li>Our Franchising</li>
-                                <li>Terms and conditions</li>
-                                <li>Privacy Policy</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="single-footer-widget">
-                            <h4>Information</h4>
-                            <ul>
-                                <li>Payment methods</li>
-                                <li>Times and shipping costs</li>
-                                <li>Product Returns</li>
-                                <li>Shipping methods</li>
-                                <li>Conformity of the products</li>
-                            </ul>
+                            <h4>Find Us Here</h4>
+                            <div class="social-links">
+                                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="social-links-warp">
-			<div class="container">
-				<div class="social-links">
-					<a href="" class="instagram"><i class="fa fa-instagram"></i><span>instagram</span></a>
-					<a href="" class="pinterest"><i class="fa fa-pinterest"></i><span>pinterest</span></a>
-					<a href="" class="facebook"><i class="fa fa-facebook"></i><span>facebook</span></a>
-					<a href="" class="twitter"><i class="fa fa-twitter"></i><span>twitter</span></a>
-					<a href="" class="youtube"><i class="fa fa-youtube"></i><span>youtube</span></a>
-					<a href="" class="tumblr"><i class="fa fa-tumblr-square"></i><span>tumblr</span></a>
-				</div>
-			</div>
 
-<div class="container text-center pt-5">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
+    <div class="container text-center pt-1 pb-5">
+        <p class="small">This website was created by Omar Awad and Mara Hart for LAHacks 2020. Code can be found on <a href="https://www.github.com/denfushi/lahacks" target="_blank" class="text-muted"><strong>GitHub</strong></a></p>
+        <p class="small">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-muted">Colorlib</a></p>
+    </div>
 
 
-		</div>
     </footer>
     <!-- Footer Section End -->
 
@@ -453,6 +456,7 @@
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/mixitup.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 
 </html>
