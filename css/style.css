@@ -2362,3 +2362,20 @@ ol {
 		padding: 10px 0;
 	}
 }
+
+
+.activity-description {
+	float: left;
+	width: 50%;
+  }
+.activity-requirement {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .activity-row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
