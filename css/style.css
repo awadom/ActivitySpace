@@ -809,6 +809,22 @@ ol {
 	margin-right: 0;
 }
 
+.leisure {
+	width: 20px;
+}
+
+.partners, .team, .kids {
+	width: 19px;
+}
+
+.active {
+	width: 18px;
+}
+
+.solo {
+	width: 15px;
+}
+
 .single-product-item {
 	margin-bottom: 30px;
 }
@@ -820,7 +836,9 @@ ol {
 }
 
 .single-product-item figure img {
-	min-width: 100%;
+	width: 264px;
+	height: 363px;
+	object-fit: cover;
 }
 
 .single-product-item figure .p-status {
@@ -839,7 +857,8 @@ ol {
 }
 
 .single-product-item figure .p-status.popular {
-	background: #D0D7DB;
+	background: #757575;
+	color: #fff;
 }
 
 .single-product-item .product-text {
